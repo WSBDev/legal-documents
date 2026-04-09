@@ -5,13 +5,15 @@ This repository hosts publicly accessible legal documents for WallStreetBets app
 ## Documents
 
 - [Terms and Conditions](TERMS_AND_CONDITIONS.md)
-- [Privacy Policy](PRIVACY_POLICY.md)
+- [Privacy Policy](PRIVACY_POLICY.md) (Reddit/Devvit apps)
+- [iOS App Privacy Policy](IOS_APP_PRIVACY_POLICY.md)
 
 ## Usage
 
 These documents are served via GitHub Pages at:
 - Terms: https://wsbdev.github.io/legal-documents/TERMS_AND_CONDITIONS
 - Privacy: https://wsbdev.github.io/legal-documents/PRIVACY_POLICY
+- iOS App Privacy: https://wsbdev.github.io/legal-documents/IOS_APP_PRIVACY_POLICY
 
 ## Updates
 
