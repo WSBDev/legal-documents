@@ -1,6 +1,6 @@
 # Privacy Policy
 
-_Last Updated: June 17, 2026_
+_Last Updated: September 18, 2026_
 
 ## 1. Introduction
 
@@ -14,9 +14,17 @@ We collect the following categories of information:
 
 Information you provide:
 
-- Email address: used to create and sign in to your account through a secure, passwordless (magic link) process.
+- Email address: used to create and sign in to your account, either through a secure, passwordless (magic link) process or through Sign in with Apple or Sign in with Google.
 - Mailing address: provided so we can ship promotional items to you and verify deliverability. Addresses are validated for accuracy.
 - Feedback: any messages you choose to send us through the App.
+
+Information from Apple or Google, if you choose to sign in with them:
+
+- Sign in with Google is offered in both our iOS and Android apps. Sign in with Apple is offered in our iOS app.
+- Email address and a provider user ID: the unique identifier Apple or Google assigns to you for this App. We use them to create your account and to recognize you when you sign in again.
+- Name and profile picture, from Google only: Google includes these with your sign-in and they are stored with your account record. We do not display them or use them for any other purpose.
+- Apple private relay address: Apple lets you keep your real email address private. If you choose that, Apple gives us an address ending in `@privaterelay.appleid.com` and forwards our messages on to you. We treat it as your normal email address.
+- We never receive your Apple or Google password.
 
 Brokerage information (through SnapTrade):
 
@@ -36,6 +44,8 @@ The table below summarizes the main data we process and why.
 | Data | Purpose |
 | --- | --- |
 | Email address | Account creation and sign-in |
+| Provider user ID from Apple or Google | Recognizing your account when you sign in again |
+| Name and profile picture from Google | Stored with your account record; not displayed or otherwise used |
 | Mailing address | Shipping promotional items and address verification |
 | Brokerage account data (via SnapTrade) | Determining and displaying promotional eligibility |
 | Device identifier and push token | Delivering notifications you enable |
@@ -55,12 +65,15 @@ We use your information to:
 
 We do not sell your personal information, and we do not use it for cross-app tracking or third-party advertising.
 
+Our use of information received from Google APIs follows the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including its Limited Use requirements. The profile information Google provides when you sign in is used only to authenticate you and maintain your account.
+
 ## 5. How We Share Information
 
 We share information only with service providers that help us operate the App, and only as needed to provide the service:
 
 - SnapTrade: securely connects your brokerage and retrieves the limited account data described above.
-- Google: validates and standardizes the mailing address you enter (address requests are sent through our backend).
+- Apple: authenticates you if you choose Sign in with Apple, and forwards our messages to you if you use Hide My Email.
+- Google: authenticates you if you choose Sign in with Google, and validates and standardizes the mailing address you enter (address requests are sent through our backend).
 - Expo: delivers push notifications to your device.
 - Our hosting and backend provider: stores your account data securely.
 
@@ -83,6 +96,8 @@ We use push notifications to send you updates related to the App, such as your a
 We retain your information for as long as your account is active or as needed to provide the App and meet legal obligations.
 
 You can permanently delete your account and associated data at any time from the Profile screen in the App. Deletion is permanent and cannot be undone.
+
+If you signed in with Apple, deleting your account also revokes the App's connection to your Apple ID.
 
 ## 9. Your Rights and Choices
 
@@ -120,7 +135,7 @@ If you are a California resident, you have additional rights under the Californi
 
 Categories of personal information we collect:
 
-- Identifiers: email address, a hashed device identifier, push notification token, and account ID.
+- Identifiers: email address, a hashed device identifier, push notification token, account ID, and — if you sign in with Apple or Google — the provider user ID they assign you, plus the name and profile picture on your Google account.
 - Customer records: the mailing address you provide.
 - Commercial and financial information: brokerage account name and type, a masked account number, and balances, accessed through SnapTrade with your authorization.
 
@@ -129,12 +144,13 @@ We do not collect precise geolocation, biometric information, or your brokerage 
 Categories of sources:
 
 - Directly from you (email, mailing address, feedback).
+- From Apple or Google, if you choose to sign in with them.
 - From your brokerage through SnapTrade, with your authorization.
 - Automatically from your device (device identifier, push token).
 
 Categories of third parties we disclose to:
 
-- Service providers that operate the App: SnapTrade (brokerage connection), Google (address validation), Expo (push notifications), and our hosting provider.
+- Service providers that operate the App: SnapTrade (brokerage connection), Apple and Google (sign-in), Google (address validation), Expo (push notifications), and our hosting provider.
 
 Sale and sharing:
 
